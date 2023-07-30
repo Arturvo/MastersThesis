@@ -1,0 +1,47 @@
+Seed;553488
+SmoothNormals;True
+InterpolateVertices;True
+UseAppendBuffers;True
+TrimMeshesAndBuffers;False
+UseIndirectRendering;False
+UseSimpleShaders;False
+ChunkSize;25,00
+TerrainSizeX;20,00
+TerrainSizeY;10,00
+TerrainSizeZ;20,00
+NoiseFrequency;13,00
+NoiseStrength;0,05
+NoiseLayers;3
+NoiseLayerFrequencyMultiplier;2,10
+cubesPerUnitLimit;5
+numberOfShortMeasurments;10
+numberOfLongMeasurments;3
+shortMeasurmentTresholdSeconds;10,00
+measurmentLengthLimitSeconds;180,00
+fpsMeasurmentDurationSeconds;2,00
+skipCpu;True
+
+CPU_GPU
+Cubes per unit;Total cubes;Voxel_Generation time (ms);Voxel_Generation min time (ms);Voxel_Generation max time (ms);Marching_Cubes time (ms);Marching_Cubes min time (ms);Marching_Cubes max time (ms);Mesh_Smoothing time (ms);Mesh_Smoothing min time (ms);Mesh_Smoothing max time (ms);Mesh_Building time (ms);Mesh_Building min time (ms);Mesh_Building max time (ms);MeshAndBuffer_Trimming time (ms);MeshAndBuffer_Trimming min time (ms);MeshAndBuffer_Trimming max time (ms);Mesh_Rendering time (ms);Mesh_Rendering min time (ms);Mesh_Rendering max time (ms);Total_Time time (ms);Total_Time min time (ms);Total_Time max time (ms);GPU memory used (b);Average frame rate
+1;4000;0,04;0,04;0,05;0,01;0,01;0,01;0,01;0,01;0,01;4,81;3,79;5,83;0,00;0,00;0,00;33,39;28,19;38,83;38,27;32,73;44,48;0;201,00
+2;32000;0,04;0,04;0,05;0,01;0,01;0,02;0,01;0,01;0,01;6,92;6,05;11,94;0,00;0,00;0,00;33,53;27,86;38,82;40,52;34,50;45,33;0;200,00
+3;108000;0,10;0,10;0,11;0,04;0,04;0,04;0,03;0,03;0,04;29,08;20,38;38,05;0,00;0,00;0,00;35,29;29,10;39,77;64,55;59,54;77,40;0;200,50
+4;256000;0,11;0,10;0,12;0,04;0,04;0,05;0,04;0,03;0,04;41,84;30,07;47,72;0,00;0,00;0,00;38,85;30,05;44,22;80,88;61,32;88,11;0;201,00
+5;500000;0,36;0,32;0,41;0,18;0,17;0,19;0,15;0,14;0,15;88,70;74,55;133,63;0,00;0,00;0,00;43,61;41,80;50,27;133,00;117,12;184,60;0;201,00
+
+GPU_Vertex
+Cubes per unit;Total cubes;Voxel_Generation time (ms);Voxel_Generation min time (ms);Voxel_Generation max time (ms);Marching_Cubes time (ms);Marching_Cubes min time (ms);Marching_Cubes max time (ms);Mesh_Smoothing time (ms);Mesh_Smoothing min time (ms);Mesh_Smoothing max time (ms);Mesh_Building time (ms);Mesh_Building min time (ms);Mesh_Building max time (ms);MeshAndBuffer_Trimming time (ms);MeshAndBuffer_Trimming min time (ms);MeshAndBuffer_Trimming max time (ms);Mesh_Rendering time (ms);Mesh_Rendering min time (ms);Mesh_Rendering max time (ms);Total_Time time (ms);Total_Time min time (ms);Total_Time max time (ms);GPU memory used (b);Average frame rate
+1;4000;0,04;0,04;0,05;0,01;0,01;0,02;0,01;0,01;0,01;0,04;0,04;0,04;0,00;0,00;0,00;49,55;43,86;55,87;49,66;43,96;55,98;1440000;200,00
+2;32000;0,04;0,04;0,05;0,01;0,01;0,02;0,01;0,01;0,01;0,04;0,04;0,04;0,00;0,00;0,00;50,56;43,53;58,76;50,66;43,63;58,87;11520000;201,00
+3;108000;0,07;0,07;0,08;0,04;0,03;0,04;0,03;0,03;0,04;0,10;0,10;0,11;0,00;0,00;0,00;97,76;45,13;107,97;98,01;45,38;108,21;38880000;200,50
+4;256000;0,08;0,07;0,08;0,04;0,04;0,04;0,03;0,03;0,03;0,11;0,10;0,11;0,00;0,00;0,00;105,02;95,10;116,96;105,28;95,35;117,20;92160000;200,50
+5;500000;0,21;0,20;0,23;0,14;0,14;0,15;0,13;0,13;0,14;0,38;0,37;0,39;0,00;0,00;0,00;315,49;119,94;349,58;316,35;120,81;350,44;180000000;190,50
+
+GPU_Geometry
+Cubes per unit;Total cubes;Voxel_Generation time (ms);Voxel_Generation min time (ms);Voxel_Generation max time (ms);Marching_Cubes time (ms);Marching_Cubes min time (ms);Marching_Cubes max time (ms);Mesh_Smoothing time (ms);Mesh_Smoothing min time (ms);Mesh_Smoothing max time (ms);Mesh_Building time (ms);Mesh_Building min time (ms);Mesh_Building max time (ms);MeshAndBuffer_Trimming time (ms);MeshAndBuffer_Trimming min time (ms);MeshAndBuffer_Trimming max time (ms);Mesh_Rendering time (ms);Mesh_Rendering min time (ms);Mesh_Rendering max time (ms);Total_Time time (ms);Total_Time min time (ms);Total_Time max time (ms);GPU memory used (b);Average frame rate
+1;4000;0,04;0,04;0,05;0,01;0,01;0,02;0,01;0,01;0,01;0,04;0,04;0,04;0,00;0,00;0,00;49,65;43,75;55,54;49,76;43,85;55,65;1440000;201,00
+2;32000;0,05;0,04;0,06;0,01;0,01;0,02;0,01;0,01;0,01;0,04;0,04;0,05;0,00;0,00;0,00;49,88;43,89;60,07;49,99;44,00;60,18;11520000;200,00
+3;108000;0,08;0,07;0,11;0,04;0,04;0,06;0,03;0,03;0,03;0,10;0,10;0,11;0,00;0,00;0,00;100,85;56,47;111,26;101,10;56,71;111,50;38880000;139,50
+4;256000;0,07;0,07;0,08;0,04;0,03;0,04;0,03;0,03;0,03;0,10;0,10;0,11;0,00;0,00;0,00;103,82;98,83;113,53;104,06;99,08;113,77;92160000;138,00
+5;500000;0,20;0,20;0,21;0,14;0,13;0,15;0,13;0,12;0,16;0,38;0,37;0,45;0,00;0,00;0,00;350,94;150,95;378,76;351,79;151,80;379,61;180000000;35,00
+

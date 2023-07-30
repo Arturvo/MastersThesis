@@ -1,0 +1,75 @@
+Seed;553488
+SmoothNormals;True
+InterpolateVertices;True
+TrimOutputBuffer;False
+ChunkSize;25,00
+TerrainSizeX;20,00
+TerrainSizeY;10,00
+TerrainSizeZ;20,00
+NoiseFrequency;13,00
+NoiseStrength;0,05
+NoiseLayers;3
+NoiseLayerFrequencyMultiplier;2,10
+cubesPerUnitLimit;5
+numberOfShortMeasurments;10
+numberOfLongMeasurments;3
+shortMeasurmentTresholdSeconds;10,00
+measurmentLengthLimitSeconds;180,00
+fpsMeasurmentDurationSeconds;5,00
+
+CPU
+Cubes per unit;Total cubes;Voxel_Generation time (ms);Voxel_Generation min time (ms);Voxel_Generation max time (ms);Marching_Cubes time (ms);Marching_Cubes min time (ms);Marching_Cubes max time (ms);Mesh_Smoothing time (ms);Mesh_Smoothing min time (ms);Mesh_Smoothing max time (ms);Mesh_Building time (ms);Mesh_Building min time (ms);Mesh_Building max time (ms);Buffer_Trimming time (ms);Buffer_Trimming min time (ms);Buffer_Trimming max time (ms);Mesh_Rendering time (ms);Mesh_Rendering min time (ms);Mesh_Rendering max time (ms);Total_Time time (ms);Total_Time min time (ms);Total_Time max time (ms);GPU memory used (b);Average frame rate
+1;4000;8,65;8,43;10,21;4,52;4,42;4,73;29,63;29,49;29,93;0,51;0,45;0,61;0,00;0,00;0,00;31,95;27,11;36,85;75,26;70,11;81,11;0;200,20
+2;32000;51,92;51,84;52,01;24,20;24,06;24,32;127,06;126,29;128,58;2,47;2,26;2,93;0,00;0,00;0,00;37,50;36,70;39,29;243,14;241,38;245,51;0;200,20
+3;108000;176,44;175,15;184,29;75,04;73,88;75,69;282,69;281,21;284,69;6,82;6,45;7,97;0,00;0,00;0,00;38,40;37,84;40,75;579,39;575,98;588,95;0;199,60
+4;256000;388,64;386,62;398,18;188,65;160,60;430,99;511,85;508,56;519,03;14,90;13,83;17,48;0,00;0,00;0,00;39,73;38,06;42,88;1143,78;1110,55;1398,42;0;200,20
+5;500000;812,33;809,47;822,57;369,84;314,39;583,88;797,72;791,88;817,45;25,97;23,72;30,69;0,00;0,00;0,00;43,37;40,79;54,05;2049,23;1984,49;2285,55;0;197,60
+
+CPU_Multithreading
+Cubes per unit;Total cubes;Voxel_Generation time (ms);Voxel_Generation min time (ms);Voxel_Generation max time (ms);Marching_Cubes time (ms);Marching_Cubes min time (ms);Marching_Cubes max time (ms);Mesh_Smoothing time (ms);Mesh_Smoothing min time (ms);Mesh_Smoothing max time (ms);Mesh_Building time (ms);Mesh_Building min time (ms);Mesh_Building max time (ms);Buffer_Trimming time (ms);Buffer_Trimming min time (ms);Buffer_Trimming max time (ms);Mesh_Rendering time (ms);Mesh_Rendering min time (ms);Mesh_Rendering max time (ms);Total_Time time (ms);Total_Time min time (ms);Total_Time max time (ms);GPU memory used (b);Average frame rate
+1;4000;8,59;8,51;8,68;4,48;4,41;4,66;29,84;29,58;30,66;4,09;2,21;7,70;0,00;0,00;0,00;25,98;24,65;30,41;47,00;46,05;50,31;0;200,20
+2;32000;52,46;52,10;53,94;24,88;24,27;25,76;128,79;127,38;131,26;4,96;2,70;7,00;0,00;0,00;0,00;24,67;24,40;24,88;211,09;206,87;217,95;0;200,20
+3;108000;89,68;85,08;102,26;48,32;41,59;51,04;144,13;140,72;148,43;10,07;8,20;12,98;0,00;0,00;0,00;24,58;24,31;24,84;292,19;288,59;298,43;0;200,40
+4;256000;111,75;105,99;121,79;137,43;121,05;148,21;158,40;152,45;170,49;8,15;7,02;9,41;0,00;0,00;0,00;24,61;24,34;24,78;415,74;409,13;424,91;0;200,40
+5;500000;199,90;171,25;300,11;261,08;217,31;403,09;154,73;147,02;159,21;12,88;11,18;14,27;0,00;0,00;0,00;24,44;24,14;24,71;628,60;557,86;860,23;0;200,40
+
+CPU_GPU
+Cubes per unit;Total cubes;Voxel_Generation time (ms);Voxel_Generation min time (ms);Voxel_Generation max time (ms);Marching_Cubes time (ms);Marching_Cubes min time (ms);Marching_Cubes max time (ms);Mesh_Smoothing time (ms);Mesh_Smoothing min time (ms);Mesh_Smoothing max time (ms);Mesh_Building time (ms);Mesh_Building min time (ms);Mesh_Building max time (ms);Buffer_Trimming time (ms);Buffer_Trimming min time (ms);Buffer_Trimming max time (ms);Mesh_Rendering time (ms);Mesh_Rendering min time (ms);Mesh_Rendering max time (ms);Total_Time time (ms);Total_Time min time (ms);Total_Time max time (ms);GPU memory used (b);Average frame rate
+1;4000;0,05;0,04;0,06;0,01;0,01;0,02;0,01;0,01;0,01;4,49;3,85;5,80;0,00;0,00;0,00;31,23;27,02;37,20;35,78;31,16;43,02;0;199,80
+2;32000;0,04;0,04;0,05;0,01;0,01;0,01;0,01;0,01;0,01;6,72;5,58;11,51;0,00;0,00;0,00;31,97;27,34;42,30;38,76;33,23;48,62;0;200,00
+3;108000;0,13;0,10;0,20;0,05;0,04;0,06;0,04;0,03;0,05;28,23;19,09;41,59;0,00;0,00;0,00;33,28;27,63;38,38;61,73;57,34;79,62;0;200,00
+4;256000;0,12;0,10;0,15;0,05;0,04;0,05;0,04;0,03;0,04;33,19;14,68;46,18;0,00;0,00;0,00;35,94;28,48;45,20;69,34;52,02;91,62;0;200,20
+5;500000;0,38;0,32;0,67;0,18;0,16;0,25;0,15;0,14;0,19;73,94;51,65;156,52;0,00;0,00;0,00;39,17;30,81;49,50;113,81;91,12;207,13;0;200,20
+
+GPU_NoGeometryExact
+Cubes per unit;Total cubes;Voxel_Generation time (ms);Voxel_Generation min time (ms);Voxel_Generation max time (ms);Marching_Cubes time (ms);Marching_Cubes min time (ms);Marching_Cubes max time (ms);Mesh_Smoothing time (ms);Mesh_Smoothing min time (ms);Mesh_Smoothing max time (ms);Mesh_Building time (ms);Mesh_Building min time (ms);Mesh_Building max time (ms);Buffer_Trimming time (ms);Buffer_Trimming min time (ms);Buffer_Trimming max time (ms);Mesh_Rendering time (ms);Mesh_Rendering min time (ms);Mesh_Rendering max time (ms);Total_Time time (ms);Total_Time min time (ms);Total_Time max time (ms);GPU memory used (b);Average frame rate
+1;4000;0,05;0,04;0,05;0,01;0,01;0,01;0,01;0,01;0,01;4,32;3,13;5,78;0,00;0,00;0,00;30,09;27,00;37,49;34,48;30,23;41,97;1440000;200,00
+2;32000;0,04;0,04;0,05;0,01;0,01;0,02;0,01;0,01;0,01;5,45;4,61;10,03;0,00;0,00;0,00;31,27;27,16;37,39;36,79;31,98;43,46;11520000;199,80
+3;108000;0,11;0,09;0,13;0,04;0,04;0,05;0,03;0,03;0,04;23,71;16,50;37,37;0,00;0,00;0,00;32,94;27,50;38,17;56,83;50,50;71,61;38880000;200,00
+4;256000;0,11;0,09;0,15;0,04;0,04;0,05;0,03;0,03;0,04;26,68;16,37;37,73;0,00;0,00;0,00;33,87;28,31;39,91;60,74;45,16;70,71;92160000;200,00
+5;500000;0,34;0,28;0,53;0,17;0,15;0,23;0,14;0,13;0,17;60,91;44,32;91,98;0,00;0,00;0,00;38,17;30,09;46,02;99,73;78,49;138,67;180000000;200,20
+
+GPU_NoGeometryAll
+Cubes per unit;Total cubes;Voxel_Generation time (ms);Voxel_Generation min time (ms);Voxel_Generation max time (ms);Marching_Cubes time (ms);Marching_Cubes min time (ms);Marching_Cubes max time (ms);Mesh_Smoothing time (ms);Mesh_Smoothing min time (ms);Mesh_Smoothing max time (ms);Mesh_Building time (ms);Mesh_Building min time (ms);Mesh_Building max time (ms);Buffer_Trimming time (ms);Buffer_Trimming min time (ms);Buffer_Trimming max time (ms);Mesh_Rendering time (ms);Mesh_Rendering min time (ms);Mesh_Rendering max time (ms);Total_Time time (ms);Total_Time min time (ms);Total_Time max time (ms);GPU memory used (b);Average frame rate
+1;4000;0,04;0,04;0,05;0,01;0,01;0,01;0,01;0,01;0,01;0,04;0,04;0,05;0,00;0,00;0,00;48,31;42,72;59,55;48,42;42,83;59,68;1440000;199,80
+2;32000;0,04;0,04;0,05;0,01;0,01;0,01;0,01;0,01;0,01;0,04;0,04;0,04;0,00;0,00;0,00;52,24;42,69;82,74;52,34;42,79;82,85;11520000;200,00
+3;108000;0,07;0,07;0,08;0,04;0,03;0,04;0,03;0,03;0,03;0,10;0,10;0,11;0,00;0,00;0,00;91,65;49,44;101,11;91,90;49,68;101,35;38880000;200,00
+4;256000;0,08;0,07;0,09;0,04;0,03;0,04;0,03;0,03;0,03;0,10;0,10;0,11;0,00;0,00;0,00;96,45;87,97;102,42;96,70;88,23;102,66;92160000;200,20
+5;500000;0,20;0,19;0,21;0,14;0,13;0,14;0,13;0,12;0,13;0,38;0,37;0,40;0,00;0,00;0,00;313,22;123,30;348,25;314,06;124,16;349,08;180000000;189,20
+
+GPU_GeometryExact
+Cubes per unit;Total cubes;Voxel_Generation time (ms);Voxel_Generation min time (ms);Voxel_Generation max time (ms);Marching_Cubes time (ms);Marching_Cubes min time (ms);Marching_Cubes max time (ms);Mesh_Smoothing time (ms);Mesh_Smoothing min time (ms);Mesh_Smoothing max time (ms);Mesh_Building time (ms);Mesh_Building min time (ms);Mesh_Building max time (ms);Buffer_Trimming time (ms);Buffer_Trimming min time (ms);Buffer_Trimming max time (ms);Mesh_Rendering time (ms);Mesh_Rendering min time (ms);Mesh_Rendering max time (ms);Total_Time time (ms);Total_Time min time (ms);Total_Time max time (ms);GPU memory used (b);Average frame rate
+1;4000;0,04;0,04;0,05;0,01;0,01;0,01;0,01;0,01;0,01;1,75;1,26;3,85;0,00;0,00;0,00;31,03;26,89;37,44;32,85;28,33;41,36;1440000;200,20
+2;32000;0,04;0,04;0,05;0,01;0,01;0,01;0,01;0,01;0,01;5,02;4,41;7,62;0,00;0,00;0,00;31,58;27,20;40,44;36,66;31,76;45,18;11520000;200,20
+3;108000;0,11;0,09;0,14;0,04;0,04;0,05;0,03;0,03;0,04;15,58;11,08;24,42;0,00;0,00;0,00;32,84;27,83;37,85;48,60;43,10;61,83;38880000;200,00
+4;256000;0,10;0,09;0,11;0,04;0,04;0,05;0,03;0,03;0,04;22,57;20,03;27,41;0,00;0,00;0,00;33,77;28,26;41,47;56,52;50,59;69,06;92160000;199,80
+5;500000;0,31;0,28;0,35;0,16;0,15;0,17;0,14;0,13;0,15;70,46;47,85;122,71;0,00;0,00;0,00;37,97;29,73;45,41;109,05;79,96;168,78;180000000;200,40
+
+GPU_GeometryAll
+Cubes per unit;Total cubes;Voxel_Generation time (ms);Voxel_Generation min time (ms);Voxel_Generation max time (ms);Marching_Cubes time (ms);Marching_Cubes min time (ms);Marching_Cubes max time (ms);Mesh_Smoothing time (ms);Mesh_Smoothing min time (ms);Mesh_Smoothing max time (ms);Mesh_Building time (ms);Mesh_Building min time (ms);Mesh_Building max time (ms);Buffer_Trimming time (ms);Buffer_Trimming min time (ms);Buffer_Trimming max time (ms);Mesh_Rendering time (ms);Mesh_Rendering min time (ms);Mesh_Rendering max time (ms);Total_Time time (ms);Total_Time min time (ms);Total_Time max time (ms);GPU memory used (b);Average frame rate
+1;4000;0,04;0,04;0,05;0,01;0,01;0,01;0,01;0,01;0,01;0,04;0,04;0,04;0,00;0,00;0,00;47,42;42,46;53,09;47,53;42,57;53,20;1440000;199,80
+2;32000;0,04;0,04;0,05;0,01;0,01;0,01;0,01;0,01;0,01;0,04;0,04;0,04;0,00;0,00;0,00;51,46;42,73;90,79;51,57;42,84;90,89;11520000;200,20
+3;108000;0,08;0,07;0,08;0,04;0,03;0,04;0,03;0,03;0,03;0,10;0,10;0,10;0,00;0,00;0,00;97,55;54,91;109,04;97,80;55,15;109,28;38880000;139,80
+4;256000;0,07;0,07;0,08;0,04;0,03;0,04;0,03;0,03;0,03;0,10;0,10;0,11;0,00;0,00;0,00;104,20;95,78;109,03;104,45;96,03;109,28;92160000;137,80
+5;500000;0,21;0,19;0,24;0,14;0,13;0,16;0,13;0,13;0,17;0,38;0,36;0,44;0,00;0,00;0,00;370,83;174,64;400,35;371,69;175,64;401,19;180000000;34,60
+
