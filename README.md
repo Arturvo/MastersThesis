@@ -1,7 +1,7 @@
 # Master's thesis
 ## Performance comparison of 3D terrain generation using the Marching Cubes algorithm between CPU and GPU
 
-A Unity project aimed at testing the performance of various terrain generation techniques that can be used in Unity. The project deeply explores compute and graphic shader capabilities and different mesh rendering techniques, while also providing an accessible user interface and automated data collection.
+A solo Unity project aimed at testing the performance of various terrain generation techniques that can be used in Unity. The project deeply explores compute and graphic shader capabilities and different mesh rendering techniques, while also providing an accessible user interface and automated data collection.
 
 **Features:** procedural terrain generation using Marching Cubes algorithm and 3D Perlin noise, triplanar texture mapping, custom vertex and geometry shaders, performance monitoring, automated data collection to csv files, CPU multithreading
 ##
