@@ -3,7 +3,7 @@
 
 A solo Unity project aimed at testing the performance of various terrain generation techniques that can be used in Unity. The project deeply explores compute and graphic shader capabilities and different mesh rendering techniques, while also providing an accessible user interface and automated data collection.
 
-**Features:** procedural terrain generation using Marching Cubes algorithm and 3D Perlin noise, triplanar texture mapping, custom vertex and geometry shaders, performance monitoring, automated data collection to csv files, CPU multithreading
+**Features:** procedural terrain generation using the Marching Cubes algorithm and 3D Perlin noise, triplanar texture mapping, custom vertex and geometry shaders, performance monitoring, automated data collection to csv files, CPU multithreading
 ##
 
 ![MastersThesis1](https://github.com/Arturvo/MastersThesis/assets/112289546/d39b147d-862c-416e-b4cf-5fe80a9f46b2)
